@@ -1,9 +1,9 @@
 # Entorns de desenvolupament o Ecosistemes 
 Repositori destinat a la documentació de preparació d'entorns de desenvolupament o ecosistemes
 
-* Instal·lació Python
-* Instal·lació IPyton
-* Instal·lació Spark
+* [Instal·lació Python](#installacio-python)
+* [Instal·lació IPyton i Jupyter](#installacio-ipython-i-jupyter)
+* [Instal·lació Spark](#installacio-spark)
 
 # Instal·lació Python
 

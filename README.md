@@ -5,7 +5,7 @@ Repositori destinat a la documentació de preparació d'entorns de desenvolupame
 * [Instal·lació IPyton i Jupyter](#installacio-ipython-i-jupyter)
 * [Instal·lació Spark](#installacio-spark)
 
-# Instal·lació Python
+## Instal·lació Python
 
 En aquest apartat mostrarem la instalació de Python.
 * Python és un llengutge d'alt nivell.
@@ -95,15 +95,15 @@ virtualenv C:\Users\robert\test-env
 (test-env) C:\Users\robert\test-env>
 ```
 
-# Instal·lació IPython
+## Instal·lació IPython
 
-## Què és IPython
+### Què és IPython
 Podriem dir que IPython és una versió millorada de Pyton REPL.
 Una de les millores és que disposa d'una memòria caché d'entrada i sortida perquè pugueu fer referència fàcilment a les entrades o sortides anteriors.
 IPython també té eines de programació parel·la que poden ajudar a processar grans blocs de dades a través de multiples *cores* de la CPU
 
 
-## Instal·lació
+### Instal·lació
 
 Prepararem un entorn virtual anomenat ```ipython-env```
 
@@ -119,7 +119,7 @@ Ara instal·lem IPython mitjançant pip
 
 ```
 
-## Interacció amb el prompt
+### Interacció amb el prompt
 
 ```shell
 (test-env) $ ipython
@@ -154,7 +154,7 @@ In [5]: Out[2] * 2
 Out[5]: 2
 ```
 
-## Ajuda IPython
+### Ajuda IPython
 Per accedir a l'ajuda només cal utilitzar el caràcter ```?```
 
 ```shell
@@ -197,7 +197,7 @@ Type:           type
 Subclasses:
 ```
 
-### Debug
+#### Debug
 
 IPython proporciona una commanda de debugger
 ```shell
@@ -265,7 +265,7 @@ ZeroDivisionError: division by zero
 ipdb>
 ```
 
-# Jupyter Notebook
+## Jupyter Notebook
 
 Jupyter permet crear, guardar, carregar i editar sessions de programació mitjançant IPython
 
@@ -273,7 +273,7 @@ Jupyter permet crear, guardar, carregar i editar sessions de programació mitjan
 
 Tot aquesta sessió es pot guardar i compartir-la sense amagar la feina feta ni les sortides que s'han porduït. Això és molt útil per repetir processos que una altra persona ha fet i compartir codi i feina entre companys.
 
-## Instal·lació
+### Instal·lació
 
 Dins de l'entorn aïllat ipython-env instal·larem Jupyter
 
